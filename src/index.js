@@ -8,5 +8,5 @@ const client = new Client({
     ],
 });
 
-client.login("MTEzNTE0NTkzMjk1OTI2ODk0OQ.G3GB5a.dQnVc5JgSsPKW0VIDVI-SMdXlaaCMQrtS_uT_A");
+client.login("TOKEN");
 
