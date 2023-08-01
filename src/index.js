@@ -1,5 +1,7 @@
-// const { Client, Intents } = require('discord.js');
 import { Client } from 'discord.js';
+import {config} from "dotenv";
+
+config();
 
 const client = new Client({
     intents: [
@@ -8,5 +10,5 @@ const client = new Client({
     ],
 });
 
-client.login("TOKEN");
+client.login(process.env.BOT_TOKEN);
 
